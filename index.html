@@ -3,21 +3,24 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Parallax Template - Materialize</title>
+  <title>Ryan Wittrup</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://use.fontawesome.com/43b050fd07.js"></script>
+
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
+
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo">Ryan Wittrup</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Skills</a></li>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
         <li><a href="#">Education</a></li>
         <li><a href="#">Experience</a></li>
       </ul>
@@ -50,8 +53,8 @@
     <div class="parallax"><img src="images/background1.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
-
-  <div class="container">
+<!-- about me -->
+  <div class="container" id="about-me">
     <div class="section">
 
       <div class="row">
@@ -66,7 +69,6 @@
     </div>
   </div>
 
-
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
@@ -77,57 +79,12 @@
     </div>
     <div class="parallax"><img src="images/background2.jpg" alt="Unsplashed background img 2"></div>
   </div>
+<!-- /about me -->
 
-  <div class="container">
+<!-- projects -->
+  <div class="container" id="projects">
     <div class="section">
 
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="images/background3.jpg" alt="Unsplashed background img 3"></div>
-  </div>
-
-  <div class="container">
-    <div class="section">
       <div class="row">
         <h3 class="center">Projects</h3>
       </div>
@@ -167,6 +124,100 @@
     </div>
   </div>
 
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="images/background3.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+<!-- /projects -->
+
+<!-- skills -->
+  <div class="container" id="skills">
+    <div class="section">
+
+      <div class="row">
+        <h3 class="center">Skills</h3>
+      </div>
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="fa fa-users" aria-hidden="true"></i></h2>
+            <h5 class="center">Front End</h5>
+
+            <p class="light">
+              Javascript (ES2015), Angular 1 and 4<br>
+              Python, Flask<br>
+              CSS, HTML, Bootstrap
+            </p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="fa fa-server" aria-hidden="true"></i></h2>
+            <h5 class="center">Backend</h5>
+
+            <p class="light">
+              Node.js, Express<br>
+              PostgreSQL, SQLite<br>
+              Mongodb<br>
+            </p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="fa fa-cogs" aria-hidden="true"></i></h2>
+            <h5 class="center">Build Tools</h5>
+
+            <p class="light">
+              Heroku<br>
+              NPM, Gradle<br>
+              TDD / BDD - Mocha / Chai, JUnit<br>
+              Unix OS
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="images/background3.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+<!-- /skills -->
+
+<!-- education and experience -->
+  <div class="container" id="education-experience">
+    <div class="section">
+
+      <div class="row">
+        <h3 class="center">Education and Experience</h3>
+      </div>
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Contact Us</h4>
+          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
 
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
@@ -179,6 +230,7 @@
     <div class="parallax"><img src="images/background3.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
+<!-- contact -->
   <div class="container">
     <div class="section">
 
@@ -192,6 +244,7 @@
 
     </div>
   </div>
+<!-- /contact -->
 
   <footer class="page-footer teal">
     <div class="container">
@@ -224,7 +277,7 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      Made with help from the fine folks over at <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
       </div>
     </div>
   </footer>
