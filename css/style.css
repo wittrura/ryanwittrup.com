@@ -55,3 +55,8 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+.icon-contact {
+  margin-left: 0.75em;
+  margin-right: 0.75em;
+}
